@@ -1,0 +1,52 @@
+header{
+        text-align: center;
+            background: #fcfcfc;
+
+            margin-bottom: 0; /* Asegura que no haya espacio con el nav */
+            color: rgb(0, 0, 0);
+
+}
+
+
+/* 1. Estilos del contenedor de la tarjeta */
+.tarjeta-producto {
+    /* Fondo y diseño general */
+    background-color: #bb7373; /* Fondo blanco para la tarjeta */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    
+    /* Dimensiones y alineación */
+    width: 300px; /* Ancho de la tarjeta */
+    margin: 50px auto; /* Centra la tarjeta horizontalmente */
+    overflow: hidden; /* Oculta cualquier contenido que se desborde, crucial para la imagen */
+}
+
+/* 2. Estilos para la imagen */
+.tarjeta-producto img {
+    width: 100%; /* La imagen ocupa todo el ancho de la tarjeta */
+    display: block; /* Elimina el espacio extra debajo de la imagen */
+}
+
+/* 3. Estilos del contenido (título, texto y botón) */
+.contenido {
+    padding: 20px; /* Relleno interno para separar el contenido de los bordes */
+    text-align: center; /* Centra el texto y el botón */
+}
+
+/* 4. Estilos para el botón */
+
+
+.btn-carrito input {
+    /* Apariencia del botón */
+    background-color: #ffffff; /* Color de fondo gris claro */
+    border: 1px solid #ffffff; /* Borde gris */
+    color: #333; /* Color del texto */
+    
+    /* Espaciado y forma */
+    padding: 10px 20px; /* Relleno del botón */
+    border-radius: 30px; /* Bordes ligeramente redondeados */
+    cursor: pointer; /* Cambia el cursor para indicar que es clicable */
+    
+    /* Transición al pasar el mouse */
+    transition: background-color 0.3s ease;
+}

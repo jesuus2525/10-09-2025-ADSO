@@ -1,0 +1,101 @@
+/* Estilos globales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* 1. Estilos del encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    margin: 5px 0 0;
+    font-size: 1.2rem;
+}
+
+/* Estilos de la sección principal */
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* 2. Estilos de la sección de proyectos */
+.proyectos {
+    text-align: center;
+}
+
+.proyectos-contenedor {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan a la siguiente línea */
+    justify-content: center; /* Centra los proyectos */
+    gap: 20px; /* Espacio entre las tarjetas de proyectos */
+}
+
+.proyectos article {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding-bottom: 20px;
+    max-width: 350px;
+    text-align: left;
+    transition: transform 0.3s;
+}
+
+.proyectos article:hover {
+    transform: translateY(-5px);
+}
+
+.proyectos article img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.proyectos article h3, .proyectos article p {
+    padding: 0 20px;
+}
+
+/* 3. Estilos de la sección de habilidades */
+.habilidades {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.habilidades ul {
+    list-style-type: none; /* Elimina las viñetas */
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px; /* Espacio entre los elementos de la lista */
+}
+
+.habilidades li {
+    background-color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+/* 4. Estilos del pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}

@@ -1,0 +1,75 @@
+/* Estilos generales del cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Fondo gris claro */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Utiliza Flexbox para centrar el contenido vertical y horizontalmente */
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* 1. Estilos del encabezado verde */
+header {
+    background-color: #4CAF50; /* Color verde */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+/* 2. Estilos del contenedor del formulario */
+form {
+    background-color: #ffffff; /* Fondo blanco */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra alrededor de la tarjeta */
+    padding: 40px;
+    margin: 50px auto; /* Centra el formulario y da un margen superior/inferior */
+    width: 90%; /* Ancho del formulario */
+    max-width: 500px; /* Ancho máximo para pantallas grandes */
+}
+
+/* 3. Estilos de los campos de entrada */
+label {
+    display: block; /* Muestra cada etiqueta en una nueva línea */
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"] {
+    width: 100%; /* Ocupa el 100% del ancho del contenedor */
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc; /* Borde gris */
+    border-radius: 5px;
+    box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
+}
+
+/* 4. Estilos del botón de registro */
+button[type="submit"] {
+    width: 100%;
+    padding: 15px;
+    background-color: #4CAF50; /* Color verde */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Efecto de transición al pasar el mouse */
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049; /* Un verde un poco más oscuro al pasar el mouse */
+}
+
+/* 5. Estilos del pie de página */
+footer {
+    background-color: #333; /* Color gris oscuro */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: auto; /* Empuja el pie de página hacia abajo */
+}

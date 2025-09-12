@@ -1,0 +1,58 @@
+        body{
+            background: lightgrey;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif; /* Un tipo de letra común */
+            text-align: center; /* Centra todo el texto por defecto */
+    }
+        #container{
+            width: 95%;
+            margin: auto;
+
+
+    }
+
+        .header_pricipal {
+            background: #4CAF50;
+            padding: 20px 0; /* Relleno superior e inferior */
+            margin-bottom: 0; /* Asegura que no haya espacio con el nav */
+            color: white;
+
+
+    }
+
+        /* Estilos para la barra de navegación */
+        .navegacion {
+            background-color: #333; /* Color de fondo gris oscuro */
+            color: white;
+            padding: 10px 0;
+    }
+
+        .navegacion ul {
+            list-style-type: none; /* Elimina las viñetas de la lista */
+            margin: 0;
+            padding: 0;
+            display: flex; /* Permite una distribución flexible de los elementos */
+            justify-content: center; /* Centra los elementos horizontalmente */
+            gap: 20px; /* Espacio entre los elementos de la lista */
+    }
+
+        .navegacion a {
+            color: white; /* Color del texto de los enlaces */
+            text-decoration: none; /* Elimina el subrayado de los enlaces */
+    }
+
+
+        .contenido-principal{
+            background: lightgrey;
+             padding: 50px 20px;
+             list-style: none;
+             text-align: center;
+    }   
+
+    /* Estilos para el pie de página */
+        .pie {
+            background-color: #333; /* Color de fondo gris oscuro */
+            color: white;
+            padding: 20px 0;
+    }
